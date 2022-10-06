@@ -17,6 +17,8 @@ body {
 .companies-info {
     color: hsla(0, 0%, 100%, 0.6);
     display: flex;
+    justify-content: space-evenly;
+    margin: 0;
 }
 
 h1 {
