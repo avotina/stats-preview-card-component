@@ -1,4 +1,4 @@
-body, html {
+html, body {
     margin: 0;
     background-color: hsl(233, 47%, 7%);
     font-size: 0.9375em;
@@ -20,10 +20,25 @@ body, html {
 
 h1 {
     color: hsl(0, 0%, 100%);
+    font-family: "Lexend Deca";
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 260px;
 }
 
 h2 {
     margin: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 260px;
+    margin: 0 auto;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    margin-top: 15px;
 }
 
 .letter-styling {
@@ -32,11 +47,20 @@ h2 {
     margin: 0;
 }
 
-p {
-    color: hsla(0, 0%, 100%, 0.75);
-    width: 240px;
-    margin: 0 auto;
-    line-height: 1.5;
-    margin-bottom: 30px;
-    margin-top: 30px;
+.highlight-text {
+    color: hsl(277, 64%, 61%);
+}
+
+@media (min-width: 1060px) {
+
+    .card-container {
+        width: 700px;
+    }
+
+    .companies-info {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
 }
