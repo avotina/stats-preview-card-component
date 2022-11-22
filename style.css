@@ -20,7 +20,7 @@ html, body {
 
 h1 {
     color: hsl(0, 0%, 100%);
-    font-family: "Lexend Deca";
+    font-family: "Lexend Deca", sans-serif;
     margin: 0 auto;
     margin-top: 35px;
     width: 260px;
@@ -32,7 +32,7 @@ h2 {
 }
 
 p {
-    font-family: "Lexend Deca";
+    font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     width: 260px;
     margin: 0 auto;
@@ -54,7 +54,14 @@ p {
 @media (min-width: 1060px) {
 
     .card-container {
-        width: 700px;
+        width: 900px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .img-main {
+        width: 50%;
     }
 
     .companies-info {
@@ -62,5 +69,4 @@ p {
         justify-content: center;
         gap: 15px;
     }
-
 }
