@@ -55,13 +55,14 @@ p {
 
     .card-container {
         width: 900px;
+        margin: 100px auto;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-around;
     }
 
     .img-main {
-        width: 50%;
+        display: flex;
+        width: 80%;
     }
 
     .companies-info {
